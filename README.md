@@ -6,3 +6,9 @@
 <img width="1440" alt="Figma design" src="https://user-images.githubusercontent.com/83618278/184276557-5372c656-07ec-485e-8d35-0d0299d2e001.png">
 
 #### [404 Not found challenge || devchallenges.io](https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY "404 Not found challenge || devchallenges.io")
+
+## Paso 1
+
+Estructurar html básico
+Definir estilos :root (Colores, fuentes, clases)
+

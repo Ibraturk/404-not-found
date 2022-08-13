@@ -1,0 +1,42 @@
+:root{
+        --white: #FFFFFF;
+        --black: #000000;
+        --text-black: #333333;
+        --text-gray: #4F4F4F;
+        --text-footer: #BDBDBD;
+
+    }
+body{
+    font-family: 'Space mono', monospace;
+    margin: 20px 1px 24px 24px  ;
+}
+.header-text{
+    font-size: 24px; 
+    font-family: 'Inconsolata', monospace;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: -0.08em;
+    text-align: left;
+
+       
+}
+    
+img{
+    width: 100%;
+    
+}
+h1{
+    font-size: 41px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: -0.035em;
+}
+.site-text{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: -0.035em;
+    text-align: left;
+
+}
