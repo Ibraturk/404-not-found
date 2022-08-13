@@ -40,3 +40,27 @@ h1{
     text-align: left;
 
 }
+.primary-button{
+    width: 216px;
+    height: 68px;
+    margin-top: 66px;
+    font-size: 14px;
+    font-weight: 700px;
+    color: var(--white);
+    background-color: var(--text-black);
+    line-height: 20.73px;
+    
+}
+.footer-text{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color:var(--text-footer);
+    text-align: center;
+    margin: 114px 42px 24px 46px ;
+}
+.footer-text a {
+    font-weight: 700;
+    color: var(--text-footer);
+}
