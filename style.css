@@ -10,6 +10,9 @@ body{
     font-family: 'Space mono', monospace;
     margin: 20px 1px 24px 24px  ;
 }
+.main-container{
+    width: 100%;
+}
 .header-text{
     font-size: 24px; 
     font-family: 'Inconsolata', monospace;
@@ -21,7 +24,7 @@ body{
 
        
 }
-    
+
 img{
     width: 100%;
     
@@ -63,4 +66,28 @@ h1{
 .footer-text a {
     font-weight: 700;
     color: var(--text-footer);
+}
+
+@media (min-width: 820px) {
+    .site-container{
+        display: flex;
+        margin-top: 200px;
+ 
+    }
+    .content-container{
+
+    }
+   .site-message{
+       width: 586px;
+       height: 190px;
+   }
+   h1{
+       font-size: 4rem;
+    }
+    .site-text{
+        font-size: 1.5rem;
+    }
+   img{
+       max-width: 539.22px;
+   }
 }
