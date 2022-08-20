@@ -6,88 +6,47 @@
         --text-footer: #BDBDBD;
 
     }
-body{
-    font-family: 'Space mono', monospace;
-    margin: 20px 1px 24px 24px  ;
+
+    *{
+    box-sizing: border-box;
+    margin: 0; 
+     padding: 0;
 }
-.main-container{
+    
+html{
+        font-size: 62.5%;
+        font-family: 'Space Mono', monospace;
+    }
+.header-title-container {
     width: 100%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 64px;
+    margin-left: 24px;
+    font-family: 'Inconsolata', sans-serif;
 }
-.header-text{
-    font-size: 24px; 
-    font-family: 'Inconsolata', monospace;
-    font-size: 24px;
+.header-title-container p{
+    font-size: 2.4rem;
     font-weight: 700;
-    line-height: 25px;
+    line-height: 2.5rem;
     letter-spacing: -0.08em;
-    text-align: left;
-
-       
 }
-
-img{
+main{
     width: 100%;
-    
+    height: auto;
 }
-h1{
-    font-size: 41px;
-    font-weight: 700;
-    line-height: 60px;
-    letter-spacing: -0.035em;
+.main-404-container{
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    text-align: start;
 }
-.site-text{
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 27px;
-    letter-spacing: -0.035em;
-    text-align: left;
-
-}
-.primary-button{
-    width: 216px;
-    height: 68px;
-    margin-top: 66px;
-    font-size: 14px;
-    font-weight: 700px;
-    color: var(--white);
-    background-color: var(--text-black);
-    line-height: 20.73px;
-    
-}
-.footer-text{
-    font-family: 'Montserrat';
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 17px;
-    color:var(--text-footer);
-    text-align: center;
-    margin: 114px 42px 24px 46px ;
-}
-.footer-text a {
-    font-weight: 700;
-    color: var(--text-footer);
-}
-
-@media (min-width: 820px) {
-    .site-container{
-        display: flex;
-        margin-top: 200px;
- 
-    }
-    .content-container{
-
-    }
-   .site-message{
-       width: 586px;
-       height: 190px;
-   }
-   h1{
-       font-size: 4rem;
-    }
-    .site-text{
-        font-size: 1.5rem;
-    }
-   img{
-       max-width: 539.22px;
-   }
+.main-404-container .scarecrow{
+    width: 100%;
+    min-width: 288px;
+    height: 288px;
+    background-image: url('./Scarecrow.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
