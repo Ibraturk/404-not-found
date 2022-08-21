@@ -21,7 +21,7 @@ html{
     width: 100%;
     height: auto;
     margin-top: 20px;
-    margin-bottom: 58px;
+    margin-bottom: 60px;
     margin-left: 24px;
     font-family: 'Inconsolata', sans-serif;
 }
@@ -36,6 +36,8 @@ main{
     height: auto;
 }
 .main-404-container{
+    display: flex;
+    flex-direction: column;
     width: 100%;
     min-width: 320px;
     height: auto;
@@ -45,19 +47,19 @@ main{
 .main-404-container .scarecrow{
     width: 90%;
     min-width: 266px;
-    height: 220px;
+    height: 26vh;
     background-image: url('./Scarecrow.png');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size:contain;
 }
 .main-title-container {
     width: 100%;
     min-width: 320px;
     max-width: 586px;
     height: auto;
-    margin-top: 48px; 
-    margin-bottom: 98px; 
+    margin-top: 60px; 
+    margin-bottom: 64px; 
 
 }
 .main-title-container h1{
@@ -69,9 +71,10 @@ main{
 .main-title-container p{
     width: 90%;
     min-width: 306px;
+    max-width: 381px;
+    height: 108px;
     margin-top: 30px;
     margin-bottom: 66px;
-
     font-size: 1.6rem;
     font-weight: 400;
     line-height: 2.7rem;
@@ -82,17 +85,19 @@ main{
 
 }
 .main-button{
-    position: absolute;
     width: 216px;
-    height: auto;
+    height: 68px;
     padding: 24px 43px;
     color:var(--white);
     background-color: var(--black);
-    font-size: 1.3rem;
+    font-family: 'Space Mono';
+    font-size: 1.1rem;
     font-weight: bold;
-    line-height: 2.0rem;
+    line-height: 1.8rem;
 }
 footer{
+    width: 100%;
+    height: 80px;
     margin-bottom: 24px;
 }
 .footer-text-container{
