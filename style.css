@@ -30,6 +30,7 @@ html{
     font-weight: 700;
     line-height: 2.5rem;
     letter-spacing: -0.08em;
+    color: var(--text-black);
 }
 main{
     width: 100%;
@@ -91,7 +92,7 @@ main{
     height: 68px;
     padding: 24px 43px;
     color:var(--white);
-    background-color: var(--black);
+    background-color: var(--text-black);
     font-family: 'Space Mono';
     font-size: 1.1rem;
     font-weight: bold;
@@ -103,7 +104,6 @@ footer{
     margin-bottom: 24px;
 }
 .footer-text-container{
-
     width: 100%;
     max-width: 287px;
     height: auto;
@@ -114,8 +114,11 @@ footer{
     line-height: 1.7rem;
     letter-spacing: 0em;
     text-align: center;
+    color: var(--text-footer);
 
 }
 .footer-text-container a{
+    color: var(--text-footer);
+    font-weight: bold;
     text-decoration: none;
 }
