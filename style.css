@@ -56,13 +56,15 @@ main{
 .main-title-container {
     width: 100%;
     min-width: 320px;
-    max-width: 586px;
+    max-width: 500px;
     height: auto;
     margin-top: 60px; 
     margin-bottom: 64px; 
 
 }
 .main-title-container h1{
+    width: 100%;
+    max-width: 400px;
     font-size: 4rem;
     font-weight: bold;
     line-height: 6rem;
@@ -71,7 +73,7 @@ main{
 .main-title-container p{
     width: 90%;
     min-width: 306px;
-    max-width: 381px;
+    max-width: 310px;
     height: 108px;
     margin-top: 30px;
     margin-bottom: 66px;
